@@ -9,7 +9,25 @@
     <h1>Sistema de Registro de Tareas</h1>
 
     <main>
-        <section id="formulario"></section>
+        <section id="formulario">
+            <h2>Nueva Tarea</h2>
+
+                <form action="formTarea">
+                    <label for="Tarea">
+                        Descripción:
+                    </label>
+
+                    <input
+                    type="text"
+                    id="Tarea"
+                    placeholder="Ingrese una tarea"
+                    required>
+
+                    <button type="submit">
+                        Registrar
+                    </button>
+                </form>
+        </section>
         <section id="lista-tareas">
             <h2>Tareas registradas</h2>
             <ul>
